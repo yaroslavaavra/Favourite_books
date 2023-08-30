@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #b4c7df
+}
+h1, h2, h3 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+div {
+  display: flex;
+}
+aside {
+  width: 60%;
+  font-family: Georgia;
+  font-size: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 3px dotted #fff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 20px;
+}
+span {
+  font-style: italic;
+  font-size: 18px;
+}
+p {
+  font-size: 18px;
+  font-family: Georgia;
+}
+a {
+  text-decoration: none;
+  border: 2px solid #fff;
+  background-color: grey;
+  color: #fff;
+  padding: 10px;
+  width: 20%;
+  border-radius: 5px;
+}
